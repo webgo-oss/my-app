@@ -32,11 +32,11 @@ const controls=new OrbitControls(camera1,renderer1.domElement);
 controls.enableDamping=true;
 controls.enableRotate=false;
 controls.enableZoom=false;
-// const clock=new THREE.Clock();
+const clock=new THREE.Clock();
 const loop=()=>{
   requestAnimationFrame(loop);
-  // const delta=clock.getDelta();
-  // mixer.update(delta);
+  const delta=clock.getDelta();
+  mixer.update(delta);
   controls.update();
   renderer1.render(scene1,camera1);
 }
