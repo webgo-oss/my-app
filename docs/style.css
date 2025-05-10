@@ -2023,10 +2023,10 @@ align-items:end;
 }
 @media screen and (max-width:320px) {
   .footer-col h2{
-    font-size: 14px;
+    font-size: 13px;
   }
   .footer-col a{
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 .scene {
