@@ -283,15 +283,15 @@
     <div class="contact-section left-contact">
       <div class="contact-block">
         <div class="contact-me">
-       <form action="/post" method="post">
+       <form  id="contactform" onsubmit="clean()">
         <label for="name">talk to me </label>
         <div class="input-wrapper">
           <div class="icon"><i class="bi bi-person-fill"></i></div>
-          <input type="text" placeholder="your name" id="name" name="username">
+          <input type="text" placeholder="your name" id="name" name="username" required>
         </div>
         <div class="input-wrapper">
           <div class="icon"><i class="bi bi-envelope-at-fill"></i></div>
-          <input type="text" placeholder="your name" id="name" name="email">
+          <input type="text" placeholder="your name" id="name" name="email" required>
         </div>
         <input type="submit" value=">">
        </form>
@@ -322,10 +322,10 @@
   <div class="my-contact">
     <div class="message" >
       <img src="Cat 4.jpeg" alt="an image">
-      <form action="/message" method="post">
+      <form  id="messageform">
         <label for="text">feedback&query</label>
       <textarea id="text" name="message">send a message</textarea>
-      <input type="submit" value="send">
+      <input type="submit" value="send" >
       </form>
     </div>
   </div>

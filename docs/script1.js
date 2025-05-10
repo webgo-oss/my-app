@@ -152,3 +152,16 @@ back.style.background = `radial-gradient(circle at center, ${slides[current].bgC
       // document.getElementById('main-content').style.display = 'block';
     }, 2000);
   };
+  const contactform = document.getElementById("contactform");
+  const messageform=document.getElementById("messageform");
+
+  contactform.addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    alert("thanks for the contact");
+    myForm.reset(); 
+  });
+  messageform.addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    alert("thanks for the feedback/query ");
+    myForm.reset(); 
+  });
