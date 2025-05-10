@@ -20,7 +20,7 @@ manipulation1.enableRotate=false;
 manipulation1.enableZoom=false;
 const loader12=new GLTFLoader();
 let mixer12;
-loader12.load('models/metallic_fluidity.glb',(gltf)=>{
+loader12.load('/metallic_fluidity.glb',(gltf)=>{
   const animate12=gltf.scene;
   animate12.scale.set(2.7,2.7,2.7);
   animate12.position.set(0,0,0);
