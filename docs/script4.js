@@ -20,7 +20,7 @@ manipulation.enableRotate=false;
 manipulation.enableZoom=false;
 const loader1=new GLTFLoader();
 let mixer1;
-loader1.load('/cuphead.glb',(gltf)=>{
+loader1.load('cuphead.glb',(gltf)=>{
   const animate1=gltf.scene;
   animate1.scale.set(2,2,2);
   animate1.position.set(0,-2.5,0);
