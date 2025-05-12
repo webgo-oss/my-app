@@ -754,6 +754,12 @@ display: none;
 .heading{
 font-size: 12px;
 }
+.display{
+  display: none;
+}
+#topheading{
+  display: none;
+}
 }
 @media screen  and (max-width:320px){
 .section2{
