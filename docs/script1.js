@@ -18,7 +18,7 @@ function toggleMenu() {
     }
     const slides = [
     { 
-      img: 'belowzero.png', 
+      img: 'belowzero.jpg', 
       text: 'below  zero', 
       description: 'Below Zero is a website that takes you on a journey to the North Pole. Discover the stunning landscapes, wildlife, and extreme conditions of the Arctic, and learn about the unique challenges of life at the worlds northernmost point.',
       link: 'https://example.com/page1',
@@ -29,7 +29,7 @@ function toggleMenu() {
       buttonColor: '#effaff'    
     },
     { 
-      img: 'clas.png', 
+      img: 'clas.jpg', 
       text: 'crack code ', 
       description: 'Crack Code is an online platform designed to help you master programming languages. Whether you re a beginner or looking to sharpen your skills, Crack Code offers easy-to-follow tutorials, challenges, and resources to make coding simple and fun.',
       link: 'https://example.com/page2',
@@ -40,7 +40,7 @@ function toggleMenu() {
       buttonColor: '#d9f9d9'
     },
     { 
-      img: 'optimus.png', 
+      img: 'optimus.jpg', 
       text: 'optimus', 
       description: 'optimus is an online platform that offers a wide range of cars for sale, from sleek sedans to powerful SUVs. Explore detailed listings, compare models, and find the perfect car that suits your needs and style.',
       link: 'https://example.com/page3',
@@ -51,7 +51,7 @@ function toggleMenu() {
       buttonColor: '#82a0aa'
     },
     { 
-      img: 'web.png', 
+      img: 'web.jpg', 
       text: 'adop', 
       description: 'Adopt is a website that helps connect people with animals looking for loving homes. It provides a simple, user-friendly platform to browse available pets, learn about adoption processes, and find the perfect companion.',
       link: 'https://example.com/page3',
@@ -62,7 +62,7 @@ function toggleMenu() {
       buttonColor: '#000'
     },
     { 
-      img: 'galaxy explorere.png', 
+      img: 'galaxy explorere.jpg', 
       text: 'galaxy explo', 
       description: 'Galaxy Explorer is a website that takes you on an interactive journey through the solar system. Explore planets, moons, asteroids, and more, while learning fascinating facts about our cosmic neighborhood.',
       link: 'https://example.com/page3',
@@ -73,7 +73,7 @@ function toggleMenu() {
       buttonColor: '#82a0aa'
     },
     { 
-      img: 'ocean.png', 
+      img: 'ocean.jpg', 
       text: 'deep', 
       description: 'Deep is a website dedicated to raising awareness about ocean pollution. Learn about the impact of waste on marine life, discover environmental initiatives, and find ways to help protect our oceans from further damage.',
       link: 'https://example.com/page3',
