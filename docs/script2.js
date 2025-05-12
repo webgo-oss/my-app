@@ -20,10 +20,8 @@ scene1.add(ambientLight1);
 const directionalLight1 = new THREE.DirectionalLight(0xffffff, 1);
 directionalLight1.position.set(5, 10, 5);
 scene1.add(directionalLight1);
-
-// GLTFLoader with MeshoptDecoder
 const loader = new GLTFLoader();
-loader.setMeshoptDecoder(MeshoptDecoder); // Required for Meshopt-compressed models
+loader.setMeshoptDecoder(MeshoptDecoder); 
 
 let mixer;
 loader.load('bmo_cute__model_3d__free_download-v2.glb', (gltf) => {
