@@ -14,7 +14,7 @@ renderer.outputEncoding = THREE.sRGBEncoding;
 container.appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
+// controls.enableDamping = true;
 controls.enableZoom=false;
 
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
