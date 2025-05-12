@@ -18,7 +18,7 @@ directionalLight1.position.set(5, 10, 5);
 scene1.add(directionalLight1);
 const loader=new GLTFLoader();
 let mixer;
-loader.load('bmo_cute__model_3d__free_download.glb',(gltf)=>{
+loader.load('bmo_cute__model_3d__free_download-v1.glb',(gltf)=>{
   const animate=gltf.scene;
   animate.scale.set(1.5,1.5,1.5);
   animate.position.set(0,-2.5,0);
