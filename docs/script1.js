@@ -83,6 +83,17 @@ function toggleMenu() {
       descColor: '#b0ccff',
       buttonColor: '#f1f1e6'
     },
+    { 
+      img: 'infinity.png', 
+      text: 'Infinity', 
+      description: 'Infinity Chocolate is a luxurious blend of rich cocoa and smooth creaminess.Its bold, lingering flavor offers a timeless, indulgent taste experience.',
+      link: 'https://example.com/page3',
+      bgCenter: '#462619', 
+      bgEdge: '#2c645c',
+      textColor: '#5aa372',
+      descColor: '#85c274',
+      buttonColor: '#3b846b'
+    },
   ];
   
   let current = 0;

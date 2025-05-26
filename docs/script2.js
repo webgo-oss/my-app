@@ -56,4 +56,3 @@ window.addEventListener("resize", function () {
   camera1.updateProjectionMatrix();
   renderer1.setSize(container1.clientWidth, container1.clientHeight);
 });
-
