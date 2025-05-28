@@ -87,7 +87,7 @@ function toggleMenu() {
       img: 'infinity.png', 
       text: 'Infinity', 
       description: 'Infinity Chocolate is a luxurious blend of rich cocoa and smooth creaminess.Its bold, lingering flavor offers a timeless, indulgent taste experience.',
-      link: 'https://example.com/page3',
+      link: 'https://webgo-oss.github.io/brown/',
       bgCenter: '#462619', 
       bgEdge: '#2c645c',
       textColor: '#5aa372',
